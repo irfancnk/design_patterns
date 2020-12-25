@@ -20,7 +20,10 @@ differentiate it from other programming paradigms.
 1. ABSTRACTION
 Abstraction is a model of a real-world object or phenomenon, limited to a
 specific context, which represents all details relevant to this context with
-high accuracy and omits all the rest.
+high accuracy and omits all the rest. A flight booking software and an airplane 
+control software is a good example for this. Both of them can have the Airplane
+class. Booking software Airplane class has seats array as attribute, book method 
+etc. while controller software can have speed attribute, pitch angle method etc.
 
 2. POLYMORPHISM
 Polymorphism is the ability of a program to detect the real class of an object
@@ -30,7 +33,8 @@ context.
 3. ENCAPSULATION
 Encapsulation is the ability of an object to hide parts of its state and
 behaviors from other objects, exposing only limited interface to the rest of the
-program.
+program. For example to start a car we only need to turn the key or press the button.
+We do not need to connect the wires under the hood or rotate the crankshaft.
 
 4. INHERITANCE
 Inheritance is the ability to build new classes on top of existing ones. The
@@ -38,3 +42,19 @@ main benefit of inheritance is code reuse. If you want to create a class that’
 slightly different from an existing one, there’s no need to duplicate code.
 Instead, you extend the existing class and put the extra functionality into a
 resulting subclass, which inherits fields and methods of the superclass.
+
+
+WHAT IS A DESIGN PATTERN?
+Design patterns are typical solutions to commonly occurring problems in software
+design. They are like pre-made blueprints that we can customize to solve a 
+recurring design problem in our code.
+
+Patterns are confused with algorithms. While an algorithm defines a clear set
+of actions that achieve some goal, a pattern is a high-level description of a
+solution which may also solve our future problems.
+Patterns consist of: 
+
+1. Intent : 
+2. Motivation: 
+3. Structure: 
+4. Code Example: 
